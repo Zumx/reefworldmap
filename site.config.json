@@ -1,0 +1,43 @@
+{
+  "name": "Reef World Map",
+  "slug": "reefworldmap",
+  "emoji": "🪸",
+  "domain": "reefworldmap.com",
+  "colors": {
+    "primary": "#0e7c7b",
+    "accent": "#ff6f61"
+  },
+  "osm": {
+    "key": "natural",
+    "value": "reef"
+  },
+  "osmFilters": [
+    {
+      "key": "natural",
+      "value": "reef"
+    }
+  ],
+  "includeRelations": true,
+  "dedupeMeters": 0,
+  "mappedNoun": "reefs",
+  "unnamedLabel": "Unnamed reef",
+  "metaFields": [
+    {
+      "key": "reef",
+      "label": "Reef type"
+    }
+  ],
+  "locales": [
+    "en"
+  ],
+  "defaultLocale": "en",
+  "namedOnly": false,
+  "includeFilter": null,
+  "dataSource": {
+    "type": "overpass"
+  },
+  "googlePlaces": {
+    "enabled": false,
+    "cap": 800
+  }
+}
