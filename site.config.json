@@ -19,6 +19,7 @@
   ],
   "includeRelations": true,
   "dedupeMeters": 0,
+  "initialCap": 8000,
   "mappedNoun": "reefs",
   "unnamedLabel": "Unnamed reef",
   "affiliateUrl": "https://www.getyourguide.com/s/?q={q}",
